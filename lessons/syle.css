@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+  float: left; margin: 10px 0px; width: auto; height: auto;background-color: rgb(107, 106, 106);  ;
+}
+.w{
+    
+    float: left;
+    margin: 0px 10px 0px;
+    font-family: 'Montserrat';
+    color: rgba(27, 31, 35, 0.336);
+}
+
+.p{
+    float: left;
+    margin: 0px 10px 0px;
+}
+.N{
+    float: right;
+    margin: 0px 10px 0px;
+    width: auto; height: auto;background-color: rgb(107, 106, 106);
+}
+.s{
+    float: right;
+    margin: 0px 10px 0px;
+}
+.g{
+    float: right;
+    margin: 0px 10px 0px;
+}
+.t{
+    float: right;
+    margin: 0px 10px 0px;
+}
