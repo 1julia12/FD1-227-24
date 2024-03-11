@@ -1,0 +1,22 @@
+.content{
+    text-align: center;
+}
+.s {
+    background-color: yellow;
+
+}
+.n{
+    background-color: rgb(101, 101, 234);
+    color: blue;
+    text-align: center;
+    padding: 18px;
+    margin: 0px;
+}
+
+.b{
+    background-color: rgb(101, 101, 234);
+    color: blue;
+    text-align: center;
+    padding: 18px;
+    margin: 0px;
+}
