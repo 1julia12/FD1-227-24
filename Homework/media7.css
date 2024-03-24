@@ -1,0 +1,14 @@
+@media (min-width:100px){
+    .cont{
+        width: 150px;
+    }
+    .content{
+        width: 700px;
+    }
+    .text{
+        width: auto;
+    }
+    .img{
+        width: auto;
+    }
+}
