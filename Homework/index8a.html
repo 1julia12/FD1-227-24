@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="media8a.css">
     <title>Document</title>
 </head>
 <body>
 <div>
+    <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+    <form method="get" action="Reply.php">
     <div>
         <p>Название статьи:</p>
         <input type="text" name="title" style="width: 290px">
     </div>
+    
     <div>
         <p>Рубрика:</p>
         <select name="rubric" style="width: 299px">
@@ -19,6 +23,7 @@
             <option value="3" selected>программирование</option>
         </select>
     </div>
+
     <div>
         <p>Публикация:</p>
         <input type="radio" name="public" value="1">
@@ -28,16 +33,24 @@
         <span class="">в журнале</span>
         <br>
         <input type="radio" name="public" value="3">
-        <span class="SRadio8a">на сайте и в журнале</span>
+        <span >на сайте и в журнале</span>
         <br>
     </div>
+
+    <div>
+        <p>Разрешить публикации:</p>
+        <input class="cross" type="checkbox" name="comments" checked style="position: relative; top: 3px">
+    </div>
+
     <div>
         <p>Текст статьи</p>
-        <textarea name="article" style="width: 292px"></textarea>
+        <textarea class="textarea" name="article" ></textarea>
     </div>
+
     <div style="padding: 10px 0px 20px;">
         <input type="submit" value="Опубликовать">
     </div>
+</form>
 </div>
 </body>
 </html>
