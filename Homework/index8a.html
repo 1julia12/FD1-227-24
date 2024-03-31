@@ -7,43 +7,50 @@
     <title>Document</title>
 </head>
 <body>
-<div>
+<div class="header">
     <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
     <form method="get" action="Reply.php">
-    <div>
-        <p>Название статьи:</p>
-        <input type="text" name="title" style="width: 290px">
+    <div class="s">
+        <p class="name">Название статьи:</p>
+        <input class="naming" type="text" name="title" >
     </div>
-    
-    <div>
-        <p>Рубрика:</p>
-        <select name="rubric" style="width: 299px">
+
+    <div class="s">
+        <p class="rubrica">Рубрика:</p>
+        <select class="options" name="rubric" style="width: 300px">
             <option value="1">компьютерная техника</option>
             <option value="2">графика и дизайн</option>
             <option value="3" selected>программирование</option>
         </select>
     </div>
 
-    <div>
-        <p>Публикация:</p>
-        <input type="radio" name="public" value="1">
-        <span class="">на сайте</span>
+    <div class="s">
+        <p class="publick">Публикация:</p>
+        <div class="inputs">
+    <div class="type">
+        <input  type="radio" name="public" value="1" >
+        <span>на сайте</span>
         <br>
-        <input type="radio" name="public" value="2">
-        <span class="">в журнале</span>
+    </div>
+    <div class="type">
+        <input type="radio" name="public" value="2" >
+        <span>в журнале</span>
         <br>
+    </div>
+    <div class="type">
         <input type="radio" name="public" value="3">
-        <span >на сайте и в журнале</span>
-        <br>
+        <span>на сайте и в журнале</span>
+    </div>
+    </div>
     </div>
 
-    <div>
-        <p>Разрешить публикации:</p>
-        <input class="cross" type="checkbox" name="comments" checked style="position: relative; top: 3px">
+    <div class="s">
+        <p class="cross">Разрешить публикации:</p>
+        <input  type="checkbox" name="comments" style="margin: 20px 10px 5px;" >
     </div>
 
-    <div>
-        <p>Текст статьи</p>
+    <div class="s">
+        <p style="text-align: left; clear: both;">Текст статьи</p>
         <textarea class="textarea" name="article" ></textarea>
     </div>
 

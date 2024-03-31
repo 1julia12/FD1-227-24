@@ -1,0 +1,59 @@
+.s{
+    clear: both;
+}
+.name{
+    float: left;
+    margin:1px 52px 1px 1px ;
+}
+.naming{
+    max-width: 1039px;
+    /* min-width: 200px; */
+    width: 100%;
+   
+    /* padding: 1px 20px 0px 55px; */
+    
+}
+.rubrica{
+    float: left;
+    margin: 0px 110px 5px 0px;
+}
+/* .options{
+   
+    /* padding: 16px; */
+
+.textarea{
+    max-width: 1300px;
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.publick{
+    float: left;
+    margin: 1px 80px 0px 0px;
+}
+.cross{
+    float: left;
+}
+.type{
+    float: left;
+}
+
+
+@media all and (max-width: 500px){
+    .header{
+        clear: both;
+    }
+    .inputs{
+        clear: both;
+    }
+    .type{
+        clear: both;
+    }
+    .rubrica{
+        clear: both;
+    }
+    .s{
+        clear: both;
+    }
+}
+
