@@ -2,13 +2,21 @@
     position: absolute;
     left: 175px;
     bottom: 250px;
-    transform: scale(1.1);
 }
-
+.s:hover{
+    transform: scale(2);
+    transition: .5s;
+    z-index: 5;
+}
 .t{
     position: absolute;
     left: 408px;
     bottom: 250px;    
+}
+.t:hover{
+    transform:   scale(2);
+    transition: .5s;
+    z-index: 5;
 }
 .m{
     position: absolute;
@@ -20,6 +28,11 @@
     bottom: 40px;
     left: 306px;
     
+}
+.k:hover{
+    transform:   scale(2);
+    transition: .5s;
+    z-index: 5;
 }
 .p{    padding: 500px 0px 0px;}
 .png{
